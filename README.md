@@ -3,7 +3,9 @@ Necesitamos realizar un sistema de gestión de una inmobiliaria. En la empresa s
 Una casa tiene propiedades como: 
 
 - propietario (nombres, apellidos, identificacion)
-- precio
+- precio por metro cuadrado.
+- número de metros cuadrados.
+- costo final 
 - ubicación (nombre del barrio, referencia)
 - ciudad (nombre ciudad, nombre provincia)
 - numero de cuartos
@@ -11,6 +13,10 @@ Una casa tiene propiedades como:
 
 Un departamento posee características como:
 - propietario (nombres, apellidos, identificacion)
+- precio por metro cuadrado.
+- número de metros cuadrados.
+- valor alícuota mensual
+- costo final 
 - precio
 - ubicación (número de casa, nombre del barrio, referencia)
 - ciudad (nombre ciudad, nombre provincia)
@@ -38,12 +44,14 @@ Características:
     - La ubicación se debe obtener del archivo ubicaciones.txt a través del número de casa.
     - La ciudad se debe obtener del archivo ciudades.txt a través del nombre de la ciudad.
     - La constructora se debe obtener del archivo constructoras.txt a través del id de la empresa.
+    - El costo final es igual al número de metros * valor del metro cuadrado.
 - Todos los objetos de tipo departamento se deben ingresar y guardar en un archivo llamado departamentos.txt
   - Para el ingreso de un departamento se debe tomar en consideración lo siguiente:
     - El propietario se debe obtener del archivo propietarios.txt a través de la identificacion.
     - La ubicación se debe obtener del archivo ubicaciones.txt a través del número de casa.
     - La ciudad se debe obtener del archivo ciudades.txt a través del nombre de la ciudad.
     - La constructora se debe obtener del archivo constructoras.txt a través del id de la empresa.
+    - El costo final es igual al (número de metros * valor del metro cuadrado) + (valor alícuota mensual*12).
 - Obtener el total de las ventas de casas, y guardar el reporte en un archivo ventas_casas.txt
 - Obtener el total de las ventas de edifcios y y guardar el reporte en un archivo ventas_departamentos.txt
 
