@@ -51,7 +51,7 @@ Características:
     - La ubicación se debe obtener del archivo ubicaciones.txt a través del número de casa.
     - La ciudad se debe obtener del archivo ciudades.txt a través del nombre de la ciudad.
     - La constructora se debe obtener del archivo constructoras.txt a través del id de la empresa.
-    - El costo final es igual al (número de metros * valor del metro cuadrado) + (valor alícuota mensual*12).
+    - El costo final es igual al (número de metros * valor del metro cuadrado) + (valor alícuota mensual * 12).
 - Obtener el total de las ventas de casas, y guardar el reporte en un archivo ventas_casas.txt
 - Obtener el total de las ventas de edifcios y y guardar el reporte en un archivo ventas_departamentos.txt
 
