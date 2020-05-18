@@ -55,3 +55,14 @@ Características:
 - Obtener el total de las ventas de casas, y guardar el reporte en un archivo ventas_casas.txt
 - Obtener el total de las ventas de edifcios y y guardar el reporte en un archivo ventas_departamentos.txt
 
+### Herramientas a usar
+- Lenguaje de programación Java
+- Diagramador - DIAUML
+- Git
+- Github / GitHub-classroom
+
+### Fecha de presentación
+- 01 de junio de 2020
+
+### Importante
+- Se ha creado un proyecto de netbeans, en el cual existen creados paquetes y clases; en base al proyectos seguir con el desarrollo de la solución.
